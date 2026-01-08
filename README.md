@@ -1,2 +1,1 @@
-# mywebsite
-my final project
+# my-website
