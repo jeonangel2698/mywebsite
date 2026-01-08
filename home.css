@@ -128,13 +128,22 @@ header{
     margin-bottom: 30px;
     color:rgb(247, 250, 245);
 }
-/*menu*/
 
 .menu-grid{
-    display: flex;
-     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    padding: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.menu-iteam img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 .nav-links {
   display: flex;
